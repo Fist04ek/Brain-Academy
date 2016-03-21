@@ -80,6 +80,9 @@ height: 2700px;
 width: 100%;
 background-color: #fff;	
 }
+.find{
+	font-family: MontserratBold;
+}
 .steps{
 	display: inline-block;
 	float: left;
