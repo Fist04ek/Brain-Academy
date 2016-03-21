@@ -1,0 +1,91 @@
+
+#promo{
+	height: 700px;
+	background: no-repeat center/cover url("../images/promo.jpg");
+
+}
+.promo_header {
+	height: 150px;
+	line-height: 150px;
+}
+.promo_logo {
+float: left;
+font-family: ;
+font-size: 20px;
+}
+.promo_buttons{
+float: right;
+font-family: MontserratBold;
+font-size: 14px;
+}
+.promo_buttons > li ,
+.promo_logo > li{
+display: inline-block;
+list-style-type: none;
+}
+.promo_buttons a,
+.promo_logo a {
+	text-decoration: none;
+	color: #fff;
+}
+.promo_button-singIn {
+	margin-left: 20px;
+}
+.promo_buttons a{
+	padding: 10px 18px;
+}
+.promo_buttons .promo_button-singIn > a{
+	border: 3px solid #fff;
+	border-radius: 20px;
+}
+.promo_text1 a{
+	margin-top: -20px;
+	font-family: MontserratBold;
+	text-decoration: none;
+	color: #fff;
+	margin-top: 220px;
+	display: block;
+	text-align: center;
+	font-size: 52px;
+	line-height: 65px;
+}
+.promo_text > li{
+	list-style-type: none;
+	vertical-align: top;
+}
+.promo_text2 a{
+	font-weight: normal;
+	margin-top:-65px;
+	padding: 0;
+	display: block;
+	text-decoration: none;
+	font-family: RobotoLight;
+	vertical-align: top;
+	text-align: center;
+	color: #fff;
+	font-size: 24px;
+}
+.promo_button a{
+	margin-top: -110px;
+	display: block;
+	color: #fff;
+	text-decoration: none;
+	background: no-repeat center url("../images/Button.png");
+	text-align: center;
+	font-family: MontserratBold;
+	font-size: 14px;
+}
+#body{
+height: 2700px;
+width: 100%;
+background-color: #fff;	
+}
+.steps{
+	display: inline-block;
+	float: left;
+}
+.step1{
+	height: 400px;
+	width: 300px;
+	background: no-repeat center url("../images/step1.jpg")
+}

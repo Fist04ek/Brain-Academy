@@ -1,0 +1,22 @@
+@media (min-width: 300px) and (max-width: 690px){
+	#promo{
+		height: 540;
+	}
+	.promo_buttons,
+	.promo_logo {
+		display: block;
+		text-align: center;
+		float: none !important;
+		margin-top: -40px;
+	}
+	.promo_logo{
+		margin-top: 50px;
+		font-size: 50px;
+	}
+	.promo_text{
+		margin-top: -250px;
+	}
+	.promo_text1{
+		font-size: 30px;
+	}
+}
