@@ -6,3 +6,7 @@
 	font-family: RobotoLight;
 	src: url(../fonts/Roboto-Light.ttf);
 }
+@font-face {
+	font-family: MontserratRegular;
+	src: url(../fonts/Montserrat-Regular.ttf);
+}

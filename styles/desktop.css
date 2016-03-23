@@ -80,15 +80,109 @@ height: 2700px;
 width: 100%;
 background-color: #fff;	
 }
-.find{
+.how_works{
+	margin-top: 100px;
 	font-family: MontserratBold;
+	font-size: 22px;
+	text-align: center;
+	margin-bottom: 20px;
 }
 .steps{
-	display: inline-block;
-	float: left;
+	width: 1000px;
+	/*display: inline-block;*/
+	margin: auto;
 }
 .step1{
+	margin: 15px;
+	/*margin-left:200px;*/
 	height: 400px;
 	width: 300px;
-	background: no-repeat center url("../images/step1.jpg")
+	background: no-repeat center url("../images/step1.jpg");
+	float:left;
 }
+.step2{
+	margin: 15px;
+	height: 400px;
+	width: 300px;
+	background: no-repeat center url("../images/step2.jpg");
+	float: left;
+}
+.step3{
+	margin: 15px;
+	/*margin-right: 150px;*/
+	height: 400px;
+	width: 300px;
+	background: no-repeat center url("../images/step3.jpg");
+	float: left;
+}
+.arrow_left{
+	margin-top: 150px;
+	float: left;
+	height: 70px;
+	width: 50px;
+	background-image: url("../images/strelka.png");
+	background-size: auto;
+	background-repeat: no-repeat;
+	margin-left: 20px;
+}
+.arrow_right{
+	margin-top: 150px;
+	float: right;
+	height: 70px;
+	width: 50px;
+	background-image: url("../images/strelka2.png");
+	background-size: auto;
+	background-repeat: no-repeat;
+}
+.step_button2{
+	width: 70px;
+	height: 20px;
+	margin-top: 260px;
+	margin-left: 20px;
+	background-image: url("../images/step_button.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+
+}
+.step_button1 p , .step_button2 p , .step_button3 p{
+	font-family: MontserratRegular;
+	font-size: 12px;
+	color: #fff;
+	text-align: center;
+	font-weight: 100;
+
+}
+.step_button1{
+	width: 70px;
+	height: 20px;
+	margin-top: 230px;
+	margin-left: 20px;
+	background-image: url("../images/step_button.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+
+}
+.step_button3{
+	width: 70px;
+	height: 20px;
+	margin-top: 220px;
+	margin-left: 20px;
+	background-image: url("../images/step_button.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+
+}
+.steps h3 {
+	font-family: MontserratBold;
+	font-size: 24px;
+	color: #fff;
+	margin-left: 20px;
+	margin-top: 10px;
+}
+.step1 > p , .step2 > p , .step3 >p{
+	font-family: RobotoLight;
+	color: #fff;
+	font-size: 14px;
+	margin: -10px 10px 10px 20px ;
+}
+
